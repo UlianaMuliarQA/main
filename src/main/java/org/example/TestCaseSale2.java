@@ -27,7 +27,7 @@ public class TestCaseSale2 {
         page.OpenBackgoodSale();
         //крок 7 - перевірити чи є таблиця на .поверненнях
         page.ChecktableBackSales();
-        //закрити програму і браузер
+        //закрити прграму і браузер
         Driver.quit();
     }
 }
